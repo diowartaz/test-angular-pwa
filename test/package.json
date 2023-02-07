@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "express": "node server.js",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -21,7 +22,10 @@
     "@angular/service-worker": "^15.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.12.0"
+    "zone.js": "~0.12.0",
+    "express-history-api-fallback": "^2.2.1",
+    "path": "^0.12.7",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.0.1",
